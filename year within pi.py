@@ -1,4 +1,4 @@
-//you need the pack "mpmath" to run this code, type < pip install mpmath > at a terminal to download
+# you need the pack "mpmath" to run this code, type < pip install mpmath > at a terminal to download
 
 from mpmath import mp
 
@@ -7,7 +7,7 @@ def find_birth_year_in_pi(birth_year):
     pi_digits = str(mp.pi)[2:]
     birth_year_str = str(birth_year)
     position = pi_digits.find(birth_year_str)
-     return position
+    return position
 
 if __name__ == "__main__":
     birth_year = input("Enter your birth year (YYYY): ")
